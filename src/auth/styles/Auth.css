@@ -1,0 +1,4 @@
+.hero_animation {
+  -webkit-animation: floating 6s infinite ease-in-out;
+  animation: floating 6s infinite ease-in-out;
+}
