@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { AuthLayout } from './AuthLayout'
+import { AuthLayout } from '../components/AuthLayout.jsx'
 
 export const LoginPage = () => {
   const handleSubmit = (data) => {
@@ -12,7 +12,6 @@ export const LoginPage = () => {
 
   return (
     <AuthLayout>
-
       <div className='w-full border-dashed border-[1px] border-spacing-1 mt-10 p-5 rounded-lg py-7 shadow-2xl'>
         <h1 className='text-3xl font-bold text-center text-white'>Inicia Sesión</h1>
         {/* create form using tailwindcss */}
