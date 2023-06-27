@@ -4,7 +4,7 @@ import { NavOptions } from './NavOptions'
 export const NavBar = () => {
   return (
   // create a navbar using tailwindcss with title in the left say "MyDates" and a button in the right saying "MyDates" and a button in the right saying "Login"
-    <Disclosure className='bg-gradient-to-r from-[#84fab0] to-[#8fd3f4]' as='nav'>
+    <Disclosure className='bg-gradient-to-r from-[#84fab0] to-[#8fd3f4] fixed w-full z-10' as='nav'>
       {({ open }) => (
         <>
           <div className='max-w-screen-xl mx-auto px-2 sm:px-6 lg:px-8'>
